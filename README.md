@@ -18,7 +18,8 @@ Go2'yi seçmemin nedeni şu: Robot Bluetooth, Wi-Fi ve 4G üzerinden kontrol edi
 
 | Dosya | Açıklama |
 | --- | --- |
-| [`docs/Unitree_Go2_Laboratuvar_Foyu.pdf`](docs/Unitree_Go2_Laboratuvar_Foyu.pdf) | Kapak + LAB 1–4, Go2'ye göre doldurulmuş (5 sayfa). LAB 5–7 bu aşamada yok. |
+| [`docs/Unitree_Go2_Laboratuvar_Foyu.pdf`](docs/Unitree_Go2_Laboratuvar_Foyu.pdf) | **Ana föy (Genel Sürüm şablonu):** Kapak + LAB 1–4, Go2'ye göre doldurulmuş (5 sayfa). LAB 5–7 bu aşamada yok. |
+| [`docs/Unitree_Go2_Laboratuvar_Foyu_PaketPro.pdf`](docs/Unitree_Go2_Laboratuvar_Foyu_PaketPro.pdf) | **Ek föy (PaketPro 3000 şablonu):** Aynı LAB 1–4, PaketPro sorularıyla (5 sayfa). PaketPro'ya özgü iki soru Go2 karşılığıyla cevaplandı: LAB 2-S2 "uzak bakım modülü" → 4G/eSIM + bulut bağlantısı; LAB 4-B2 "ışık perdesi zinciri" → LiDAR engel algılama + kumanda acil durdurma. |
 | [`analizler/SWOT_Analizi.md`](analizler/SWOT_Analizi.md) | Projenin ve seçilen makinenin güçlü/zayıf yönleri, fırsatlar ve tehditler. |
 | [`analizler/SMART_Analizi.md`](analizler/SMART_Analizi.md) | Belirli, ölçülebilir, ulaşılabilir, ilgili ve zaman sınırlı proje hedefleri. |
 | [`kaynaklar/Kaynaklar.md`](kaynaklar/Kaynaklar.md) | Üretici sayfası, satış sayfası, kullanım kılavuzu ve CVE kayıtları; kanıt durumu. |
@@ -67,8 +68,8 @@ CVE-2025-35027 kaydına göre Go2 firmware **1.1.8 ve öncesi** etkileniyor. **B
 
 ## Haftalık güncelleme yöntemi
 
-- **Mevcut sürüm:** Kapak + LAB 1, LAB 2, LAB 3 ve LAB 4 (5 sayfa).
-- **LAB 5 işlendiğinde:** Önceki sayfalar korunur, tamamlanan LAB 5 sayfası PDF'nin sonuna eklenir ve yeni bir commit olarak yayımlanır.
+- **Mevcut sürüm:** Kapak + LAB 1, LAB 2, LAB 3 ve LAB 4 (5 sayfa), iki şablonla: Genel Sürüm (ana föy) ve PaketPro 3000 (ek föy).
+- **LAB 5 işlendiğinde:** Önceki sayfalar korunur, tamamlanan LAB 5 sayfası iki PDF'nin de sonuna eklenir ve yeni bir commit olarak yayımlanır.
 - **LAB 6 ve LAB 7:** Aynı şekilde, yalnızca tamamlandıktan sonra eklenir.
 - **SWOT ve SMART:** Yeni bulgular geldikçe güncellenir.
 - **Commit mesajı:** Eklenen LAB'ı ve tarihi içerir (ör. `docs: LAB 5 eklendi (30.10.2026)`).

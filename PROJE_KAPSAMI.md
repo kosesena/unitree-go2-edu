@@ -43,4 +43,4 @@ Resmî uygunluk dosyası; üreticinin teknik ölçümlerini, çizimlerini, risk 
 
 ## Föy ile ilişkinin sınırı
 
-`docs/` içindeki PDF **yalnızca kapak + LAB 1–4 (toplam 5 sayfa)** içerir. LAB 5, LAB 6 ve LAB 7 henüz eklenmemiştir; ders ilerledikçe aynı PDF'ye sırayla eklenecektir. Haftalık föyler ile dönem sonu CE teknik dosyası **aynı teslim değildir**; repo teknik dosya çalışmasıyla ayrıca genişletilebilir.
+`docs/` içindeki iki PDF (Genel Sürüm ve PaketPro 3000 şablonu) **yalnızca kapak + LAB 1–4 (her biri 5 sayfa)** içerir. LAB 5, LAB 6 ve LAB 7 henüz eklenmemiştir; ders ilerledikçe iki PDF'ye de sırayla eklenecektir. Haftalık föyler ile dönem sonu CE teknik dosyası **aynı teslim değildir**; repo teknik dosya çalışmasıyla ayrıca genişletilebilir.

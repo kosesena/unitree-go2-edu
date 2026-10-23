@@ -1,5 +1,7 @@
 # Haftalık İlerleme Takibi — Unitree Go2 EDU
 
+İki PDF tutulur: `Unitree_Go2_Laboratuvar_Foyu.pdf` (Genel Sürüm şablonu, ana föy) ve `Unitree_Go2_Laboratuvar_Foyu_PaketPro.pdf` (PaketPro 3000 şablonu, ek föy). Sayfa sırası ikisinde de aynıdır.
+
 | Bölüm | Durum | Not |
 | --- | --- | --- |
 | Kapak | Tamamlandı | PDF 1. sayfa |
@@ -13,6 +15,6 @@
 
 ## Güncelleme kuralı
 
-Tamamlanan her yeni LAB sayfası mevcut PDF'nin sonuna eklenir. Daha önce teslim edilen kapak ve LAB 1–4 sayfaları değiştirilmez. Yeni sayfa eklenince bu dosya ve README'deki tablo güncellenir. Her aşama ayrı bir Git commit'i olarak tutulur.
+Tamamlanan her yeni LAB sayfası iki PDF'nin de sonuna eklenir. Daha önce teslim edilen kapak ve LAB 1–4 sayfaları değiştirilmez. Yeni sayfa eklenince bu dosya ve README'deki tablo güncellenir. Her aşama ayrı bir Git commit'i olarak tutulur.
 
 Örnek commit mesajı: `docs: LAB 5 eklendi (30.10.2026)`

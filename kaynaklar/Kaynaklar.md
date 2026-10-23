@@ -28,7 +28,8 @@
 
 | Kaynak | Kullanım |
 |---|---|
-| Safety 4.0 Bootcamp Laboratuvar Föyleri — Genel Sürüm | `docs/` içindeki PDF'nin şablonu |
+| Safety 4.0 Bootcamp Laboratuvar Föyleri — Genel Sürüm (şişeleme hattı) | Ana föyün şablonu |
+| Safety 4.0 Bootcamp Laboratuvar Föyleri — PaketPro 3000 Sürümü (paketleme makinesi) | Ek föyün şablonu |
 | Ders sunumu (Evidence Pack 15 başlık, risk puanlama L × S × E) | Föy cevaplarının yöntemi |
 
 ## CVE değerlendirme kaydı (özet)
