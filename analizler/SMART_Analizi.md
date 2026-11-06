@@ -22,22 +22,22 @@
 | Hedef | Önerilen bitiş | Ölçülebilir teslim | Başarı ölçütü |
 |---|---|---|---|
 | H1 — LAB 1–4 | 23.10.2026 ✅ | Kapak + 4 föy (PDF, 5 sayfa) | Her soru Go2'ye göre cevaplı; bilgiler [K]/[CVE]/[V] ile ayrılmış. |
-| H2 — LAB 5 (SBOM / CVE / Patch) | 30.10.2026 | 1 föy + yazılım envanteri | 5 CVE için "bileşen var mı / sürüm etkileniyor mu / ulaşılabilir mi" tablosu dolu. |
-| H3 — LAB 6 (CRA Incident) | 06.11.2026 | 1 föy + olay müdahale akışı | 24 s / 72 s / 14 gün adımlarının her biri için sorumlu ve korunacak kayıt yazılı. |
-| H4 — LAB 7 (AI Safety) | 13.11.2026 | 1 föy + AI fail-safe kararı | LLM ve LiDAR engel algılama için arıza durumunda güvenli davranış tanımlı. |
-| H5 — Evidence Pack 10–15 | 04.12.2026 | Eksik 6 başlık (zafiyet kaydı, yama, yedekleme, olay müdahalesi, değişiklik yönetimi, doğrulama) | 15 başlığın tamamı en az Taslak durumda. |
+| H2 — LAB 5 (SBOM / CVE / Patch) | 30.10.2026 → 06.11.2026 ✅ | 1 föy + yazılım envanteri | 5 CVE için "bileşen var mı / sürüm etkileniyor mu / ulaşılabilir mi" tablosu dolu. |
+| H3 — LAB 6 (CRA Incident) | 06.11.2026 ✅ | 1 föy + olay müdahale akışı | 24 s / 72 s / 14 gün adımlarının her biri için sorumlu ve korunacak kayıt yazılı. |
+| H4 — LAB 7 (AI Safety) | 13.11.2026 → 06.11.2026 ✅ | 1 föy + AI fail-safe kararı | LLM ve LiDAR engel algılama için arıza durumunda güvenli davranış tanımlı. |
+| H5 — Evidence Pack 10–15 | 04.12.2026 (devam ediyor) | Eksik 6 başlık (zafiyet kaydı, yama, yedekleme, olay müdahalesi, değişiklik yönetimi, doğrulama) | 15 başlığın tamamı en az Taslak durumda. |
 | H6 — Gözden geçirme ve teslim | 18.12.2026 | Revize teknik dosya + kontrol listesi | Kaynağı olmayan kesin iddialar temizlenmiş; tüm bağlantılar çalışıyor. |
 
 ## İzleme tablosu
 
-| Gösterge | Hedef | Durum (23.10.2026) |
-|---|---:|---|
-| Tamamlanan LAB föyü | 7 | 4 (LAB 1–4) |
-| Evidence Pack başlığı (en az Taslak) | 15 | 9 (01–09) + 10 kısmen |
-| CVE etkilenme kararı | 5 | 5 karar taslağı var; firmware sürümü doğrulanmadı |
-| Risk senaryosu | ≥ 3 | 3 (R-01, R-02, R-03) |
-| Zone/conduit şeması | 1 | 1 (Z0–Z3, C1–C7) |
-| Kaynak kaydı | ≥ 5 | 11 (bkz. `kaynaklar/Kaynaklar.md`) |
+| Gösterge | Hedef | Durum (23.10.2026) | Durum (06.11.2026) |
+|---|---:|---|---|
+| Tamamlanan LAB föyü | 7 | 4 (LAB 1–4) | **7 (LAB 1–7)** |
+| Evidence Pack başlığı (en az Taslak) | 15 | 9 (01–09) + 10 kısmen | 11 (01–10, 13) + 11 ve 15 kısmen; 12, 14 yok |
+| CVE etkilenme kararı | 5 | 5 karar taslağı var; firmware sürümü doğrulanmadı | 5 karar föyde (4 etkilenmiş kabul, 1 koşullu); sürüm hâlâ doğrulanmadı |
+| Risk senaryosu | ≥ 3 | 3 (R-01, R-02, R-03) | 3 (değişmedi) |
+| Zone/conduit şeması | 1 | 1 (Z0–Z3, C1–C7) | 1 (değişmedi) |
+| Kaynak kaydı | ≥ 5 | 11 (bkz. `kaynaklar/Kaynaklar.md`) | 11 (değişmedi) |
 
 ## Kapsam dışında
 

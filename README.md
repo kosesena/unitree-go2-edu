@@ -212,7 +212,7 @@ Ders her hafta bir LAB işliyor; bu repo da onunla büyüyor.
 2. README'deki ilerleme görseli, [`HAFTALIK_ILERLEME.md`](HAFTALIK_ILERLEME.md) ve SWOT/SMART yeni bulgulara göre güncellenir.
 3. Her LAB ayrı bir commit olur: `docs: LAB 5 eklendi (30.10.2026)`.
 
-**Durum (06.11.2026):** Yedi LAB'ın hepsi iki şablonda da tamamlandı. LAB 5 beş CVE için "bizi etkiliyor mu?" kararını, LAB 6 Go2'ye uyarlanmış CRA olay akışını (24 s / 72 s / 14 gün), LAB 7 YZ'li algılama için fail-safe kararlarını içeriyor. Sırada Evidence Pack'in kalan başlıkları (EP 10–15) var.
+**Durum (06.11.2026):** Yedi LAB'ın hepsi iki şablonda da tamamlandı. LAB 5 beş CVE için "bizi etkiliyor mu?" kararını, LAB 6 Go2'ye uyarlanmış CRA olay akışını (24 s / 72 s / 14 gün), LAB 7 YZ'li algılama için fail-safe kararlarını içeriyor. Sırada Evidence Pack'in eksik başlıkları var: 11 Patch ve 15 Verification kısmen, 12 Backup & Restore ve 14 Change Management henüz yok (bkz. [`PROJE_KAPSAMI.md`](PROJE_KAPSAMI.md)).
 
 ---
 
