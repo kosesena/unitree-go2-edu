@@ -8,7 +8,7 @@
 
 <p align="center">
   <b><a href="https://go2-ce-dosyasi.vercel.app">Canlı 3B sunum</a></b> ·
-  <b><a href="docs/Unitree_Go2_Laboratuvar_Foyu.pdf">LAB 1–4 föyü (PDF)</a></b> ·
+  <b><a href="docs/Unitree_Go2_Laboratuvar_Foyu.pdf">LAB 1–7 föyü (PDF)</a></b> ·
   <a href="docs/Unitree_Go2_Laboratuvar_Foyu_PaketPro.pdf">PaketPro şablonuyla föy</a> ·
   <a href="analizler/SWOT_Analizi.md">SWOT</a> ·
   <a href="analizler/SMART_Analizi.md">SMART</a> ·
@@ -16,7 +16,7 @@
 </p>
 
 <p align="center">
-  Yazılım Mühendisliğinde Güncel Konular · Sena Köse (235542006) · B Şubesi · Ekim 2026
+  Yazılım Mühendisliğinde Güncel Konular · Sena Köse (235542006) · B Şubesi · Ekim–Kasım 2026
 </p>
 
 ---
@@ -135,13 +135,13 @@ yüzden çözüm değil gereksinim yazdırıyor: *Acil durdurma ve güvenli duru
 
 <p align="center">
   <img src="docs/img/labs.png" width="920"
-     alt="Yedi kutucuk: LAB 1 Safety Architecture, LAB 2 IEC 62443 Mini Workshop, LAB 3 Threat & Risk Matrix, LAB 4 Secure Remote Access tamamlandı (lacivert). LAB 5 SBOM / CVE / Patch sıradaki (kesikli yeşil çerçeve). LAB 6 CRA Incident Simulation ve LAB 7 AI Safety Challenge bekliyor (gri).">
+     alt="Yedi lacivert kutucuk, hepsi tamamlandı: LAB 1 Safety Architecture, LAB 2 IEC 62443 Mini Workshop, LAB 3 Threat & Risk Matrix, LAB 4 Secure Remote Access, LAB 5 SBOM / CVE / Patch, LAB 6 CRA Incident Simulation, LAB 7 AI Safety Challenge.">
 </p>
 
 | Dosya | İçerik |
 | --- | --- |
-| [`docs/Unitree_Go2_Laboratuvar_Foyu.pdf`](docs/Unitree_Go2_Laboratuvar_Foyu.pdf) | **Ana föy.** Genel Sürüm (şişeleme hattı) şablonu, kapak + LAB 1–4, Go2'ye göre doldurulmuş, 5 sayfa. |
-| [`docs/Unitree_Go2_Laboratuvar_Foyu_PaketPro.pdf`](docs/Unitree_Go2_Laboratuvar_Foyu_PaketPro.pdf) | **Ek föy.** Aynı LAB 1–4, PaketPro 3000 (paketleme makinesi) şablonunun sorularıyla. PaketPro'ya özgü iki soru Go2 karşılığıyla cevaplandı: "uzak bakım modülü" → 4G/eSIM + bulut, "ışık perdesi zinciri" → LiDAR engel algılama + kumanda acil durdurma. |
+| [`docs/Unitree_Go2_Laboratuvar_Foyu.pdf`](docs/Unitree_Go2_Laboratuvar_Foyu.pdf) | **Ana föy.** Genel Sürüm (şişeleme hattı) şablonu, kapak + LAB 1–7, Go2'ye göre doldurulmuş, 8 sayfa. LAB 5–7 sayfalarının altında şablondaki örneğin Go2 karşılığını gösteren bir "Go2 uyarlaması" kutusu var. |
+| [`docs/Unitree_Go2_Laboratuvar_Foyu_PaketPro.pdf`](docs/Unitree_Go2_Laboratuvar_Foyu_PaketPro.pdf) | **Ek föy.** Aynı LAB 1–7, PaketPro 3000 (paketleme makinesi) şablonunun sorularıyla. PaketPro'ya özgü iki soru Go2 karşılığıyla cevaplandı: "uzak bakım modülü" → 4G/eSIM + bulut, "ışık perdesi zinciri" → LiDAR engel algılama + kumanda acil durdurma; LAB 6'daki "egzoz" → Go2'de yok, yerine emniyet zinciri; LAB 7'deki "görsel paket kontrolü" → YZ'li insan/engel algılama. |
 | [`analizler/SWOT_Analizi.md`](analizler/SWOT_Analizi.md) | Projenin ve makinenin güçlü/zayıf yönleri, fırsatlar, tehditler ve çıkan strateji. |
 | [`analizler/SMART_Analizi.md`](analizler/SMART_Analizi.md) | 18 Aralık'a kadar ölçülebilir hedefler, iş paketleri ve izleme tablosu. |
 | [`kaynaklar/Kaynaklar.md`](kaynaklar/Kaynaklar.md) | Üretici, satış, kılavuz ve CVE kaynakları; her birinin doğrulama durumu. |
@@ -163,7 +163,7 @@ geliyor; Go2'nin yanında G1, H1 ve B2 robotları da etkileniyor.
 
 CVE-2025-35027 kaydına göre Go2 firmware **1.1.8 ve öncesi** etkileniyor. İncelediğimiz robotun sürümü bilinmediği için karar
 ihtiyatlı: *sürüm doğrulanana kadar etkilenmiş kabul edilir.* Unitree açığı kabul etti; düzeltilmiş sürümü doğrulayan resmî bir
-kaynak bulamadım. LAB 5'te bu karar "bileşen var mı / sürüm etkileniyor mu / açık ulaşılabilir mi" diye üç adımda verilecek.
+kaynak bulamadım. [LAB 5'te](docs/Unitree_Go2_Laboratuvar_Foyu.pdf) (PDF sayfa 6) bu karar "bileşen var mı / sürüm etkileniyor mu / açık ulaşılabilir mi" diye üç adımda verildi: dört Bluetooth/Wi-Fi kaydı **etkilenmiş kabul**, CVE-2026-1442 yerel erişim istediği için **koşullu**.
 
 ## Makine
 
@@ -200,17 +200,19 @@ görseller ya kendi 3B sunumumuzdan ya da kendi çizdiğimiz şemalardan.
 | Go2 ≤ 1.1.8 etkileniyor | [CVE-2025-35027](https://nvd.nist.gov/vuln/detail/CVE-2025-35027) | Kaydın açıklama metni |
 | CVE-2026-1442 yerel erişim ister | [CVE-2026-1442](https://nvd.nist.gov/vuln/detail/CVE-2026-1442) | CVSS vektörü `AV:L/UI:R` |
 | Risk puanları | [LAB 3, PDF sayfa 4](docs/Unitree_Go2_Laboratuvar_Foyu.pdf) | L × S × E çarpımı ve S=3 kuralı |
+| CVE etkilenme kararı | [LAB 5, PDF sayfa 6](docs/Unitree_Go2_Laboratuvar_Foyu.pdf) | Her kayıt için var / sürüm / ulaşılabilir üçlüsü |
+| CRA bildirimi üreticinin yükümlülüğü | [LAB 6, PDF sayfa 7](docs/Unitree_Go2_Laboratuvar_Foyu.pdf) | Tüzük (AB) 2024/2847, raporlama yükümlülükleri 11.09.2026'dan itibaren |
 | EDU sürümü mağazada yok | [Satış sayfası](https://shop.unitree.com/products/unitree-go2) | Sayfadaki sürüm seçenekleri (23.10.2026) |
 
 ## Haftalık güncelleme
 
 Ders her hafta bir LAB işliyor; bu repo da onunla büyüyor.
 
-1. Tamamlanan LAB sayfası **iki PDF'nin de sonuna** eklenir. Daha önce teslim edilen sayfalar değiştirilmez.
+1. Tamamlanan LAB sayfası **iki PDF'nin de sonuna** eklenir. Daha önce teslim edilen sayfaların içeriği değiştirilmez (yalnızca kapaktaki sayfa listesi ve sayfa numaraları güncellenir).
 2. README'deki ilerleme görseli, [`HAFTALIK_ILERLEME.md`](HAFTALIK_ILERLEME.md) ve SWOT/SMART yeni bulgulara göre güncellenir.
 3. Her LAB ayrı bir commit olur: `docs: LAB 5 eklendi (30.10.2026)`.
 
-**Sıradaki:** LAB 5 — SBOM / CVE / Patch. Go2'nin yazılım envanteri çıkarılacak ve beş CVE için tek tek "bizi etkiliyor mu?" kararı verilecek.
+**Durum (06.11.2026):** Yedi LAB'ın hepsi iki şablonda da tamamlandı. LAB 5 beş CVE için "bizi etkiliyor mu?" kararını, LAB 6 Go2'ye uyarlanmış CRA olay akışını (24 s / 72 s / 14 gün), LAB 7 YZ'li algılama için fail-safe kararlarını içeriyor. Sırada Evidence Pack'in kalan başlıkları (EP 10–15) var.
 
 ---
 

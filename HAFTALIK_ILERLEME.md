@@ -9,12 +9,12 @@
 | LAB 2 · IEC 62443 Mini Workshop | Tamamlandı | PDF 3. sayfa |
 | LAB 3 · Threat & Risk + Risk Matrix | Tamamlandı | PDF 4. sayfa |
 | LAB 4 · Secure Remote Access | Tamamlandı | PDF 5. sayfa |
-| LAB 5 · SBOM / CVE / Patch | Bekliyor | İlgili hafta işlendiğinde eklenecek |
-| LAB 6 · CRA Incident Simulation | Bekliyor | İlgili hafta işlendiğinde eklenecek |
-| LAB 7 · AI Safety Challenge | Bekliyor | İlgili hafta işlendiğinde eklenecek |
+| LAB 5 · SBOM / CVE / Patch | Tamamlandı | PDF 6. sayfa (06.11.2026) |
+| LAB 6 · CRA Incident Simulation | Tamamlandı | PDF 7. sayfa (06.11.2026) |
+| LAB 7 · AI Safety Challenge | Tamamlandı | PDF 8. sayfa (06.11.2026) |
 
 ## Güncelleme kuralı
 
-Tamamlanan her yeni LAB sayfası iki PDF'nin de sonuna eklenir. Daha önce teslim edilen kapak ve LAB 1–4 sayfaları değiştirilmez. Yeni sayfa eklenince bu dosya ve README'deki tablo güncellenir. Her aşama ayrı bir Git commit'i olarak tutulur.
+Tamamlanan her yeni LAB sayfası iki PDF'nin de sonuna eklenir. Daha önce teslim edilen sayfaların içeriği değiştirilmez; yalnızca kapaktaki sayfa listesi ve sayfa numaraları güncellenir. Yeni sayfa eklenince bu dosya ve README'deki tablo güncellenir. Her aşama ayrı bir Git commit'i olarak tutulur.
 
 Örnek commit mesajı: `docs: LAB 5 eklendi (30.10.2026)`
